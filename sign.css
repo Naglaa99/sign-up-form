@@ -156,6 +156,7 @@ button:hover {
         flex-direction:column-reverse;
     }
     h1{
+        margin-top:0;
         text-align: start;
     }
     .left{
