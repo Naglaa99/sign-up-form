@@ -103,7 +103,7 @@ input {
 }
 
 input::placeholder {
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 button {
@@ -140,7 +140,7 @@ button:hover {
 @media screen and (max-width:600px) {
   
     .card{
-       width:340px;
+       width:400px;
        border-radius:20px;
        height:max-content;
     }
@@ -173,9 +173,7 @@ button:hover {
     .card1{
       border-radius:0;
     }
-    body{
-        background-color: white;
-    }
+    
     .btn{
         width: 300px;
         margin-top:400px;
@@ -187,8 +185,9 @@ button:hover {
       .imgmobile{
         width: 60px;
       }
-      input::placeholder {
-        padding-left: 10px;
-        margin-top:200px;
-    }
+     body{
+        margin: 0;
+        padding:0;
+        background-color: white;
+     }
   }
