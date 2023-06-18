@@ -65,13 +65,13 @@ p {
 }
 
 
-li{
+li {
     list-style-image: url("./assets/images/icon-list.svg");
     font-family: myFont;
     font-size: 16px;
-    margin-left:18px;
-    padding-left:10px;
-    
+    margin-left: 18px;
+    padding-left: 10px;
+
 }
 
 .form-container {
@@ -121,74 +121,99 @@ button:hover {
     transition: all 0.7s;
     cursor: pointer;
 }
-.card1{
-      
-        width:280px;
-        background-color: white;
-        border-radius: 20px;
-        padding: 40px;
-    
-    }
-  .btn{
+
+
+.form-container input:valid {
+    border-color: #ccc;
+}
+
+.card1 {
+
+    width: 280px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: none;
+
+}
+
+.btn {
     width: 270px;
     margin-top: 40px;
-  }
-  strong{
+}
+
+strong {
     font-family: myFirstFont;
-    color: hsl(235, 18%, 26%); ;
-  }
+    color: hsl(235, 18%, 26%);
+    ;
+}
+
 @media screen and (max-width:600px) {
-  
-    .card{
-       width:400px;
-       border-radius:20px;
-       height:max-content;
+
+    .card {
+        width: 400px;
+        border-radius: 20px;
+        height: max-content;
     }
-    
+
     .mobile img {
-      width: 100%;
-      content: url("./assets/images/illustration-sign-up-mobile.svg"); 
-      
-      
+        width: 100%;
+        content: url("./assets/images/illustration-sign-up-mobile.svg");
+
+
     }
-    .container{
-        display:flex ;
-        flex-direction:column-reverse;
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
     }
-    h1{
-        margin-top:0;
+
+    h1 {
+        margin-top: 0;
         text-align: start;
     }
-    .left{
-      margin:22px;
+
+    .left {
+        margin: 22px;
     }
+
     p {
         font-family: myFont;
         font-size: 16px;
-        text-align:start;
-    
+        text-align: start;
+
     }
-    .pic{
-    margin-right:15px;       
+
+    .pic {
+        margin-right: 15px;
     }
-    .card1{
-      border-radius:0;
+
+    .card1 {
+        border-radius: 0;
     }
-    
-    .btn{
+
+    .btn {
         width: 300px;
-        margin-top:400px;
-      }
-      .pmobile{
-        font-size:16px;
-        margin-top:20px;
-      }
-      .imgmobile{
+        margin-top: 400px;
+    }
+
+    .pmobile {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .imgmobile {
         width: 60px;
-      }
-     body{
-        margin: 0;
-        padding:0;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
         background-color: white;
-     }
-  }
+    }
+
+    label {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+}
