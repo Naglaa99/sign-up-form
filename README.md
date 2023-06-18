@@ -17,14 +17,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/1.PNG)
+![](./assets/images/2.PNG)
+![](./assets/images/3.PNG)
+
+
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Naglaa99/sign-up-form](https://github.com/Naglaa99/sign-up-form)
+- Live Site URL: [https://naglaa99.github.io/sign-up-form/](https://naglaa99.github.io/sign-up-form/)
 
 
 
